@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 common = {}
-execfile_('common.py', common)
+execfile_('common.py', common)  # type: ignore[name-defined]
 
 MODEL_VERSION = {
     '8811': '12.0.1',

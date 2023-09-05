@@ -3,7 +3,7 @@
 
 
 common = {}
-execfile_('common.py', common)
+execfile_('common.py', common)  # type: ignore[name-defined]
 
 MODELS = [
     'V62',

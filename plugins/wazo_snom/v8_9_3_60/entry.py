@@ -1,4 +1,4 @@
-# Copyright 2017-2022 The Wazo Authors  (see the AUTHORS file)
+# Copyright 2017-2023 The Wazo Authors  (see the AUTHORS file)
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -14,7 +14,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 common_globals = {}
-execfile_('common.py', common_globals)
+execfile_('common.py', common_globals)  # type: ignore[name-defined]
 
 MODELS = ['D305', 'D315', 'D345', 'D375']
 VERSION = '8.9.3.60'

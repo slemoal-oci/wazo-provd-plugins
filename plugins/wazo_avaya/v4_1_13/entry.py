@@ -1,4 +1,4 @@
-# Copyright (C) 2013-2022 The Wazo Authors  (see the AUTHORS file)
+# Copyright 2013-2023 The Wazo Authors  (see the AUTHORS file)
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
 """Plugin for Avaya 1220IP and 1230IP using the 04.01.13.00 SIP software."""
 
 common_globals = {}
-execfile_('common.py', common_globals)
+execfile_('common.py', common_globals)  # type: ignore[name-defined]
 
 
 MODELS = ['1220IP', '1230IP']

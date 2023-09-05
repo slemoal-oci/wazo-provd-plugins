@@ -4,7 +4,7 @@
 import os
 
 common_globals = {}
-execfile_('common.py', common_globals)
+execfile_('common.py', common_globals)  # type: ignore[name-defined]
 
 MODEL_VERSIONS = {
     'CP960': '73.85.0.5',

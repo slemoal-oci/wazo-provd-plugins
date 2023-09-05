@@ -4,7 +4,7 @@
 import os
 
 common_globals = {}
-execfile_('common.py', common_globals)
+execfile_('common.py', common_globals)  # type: ignore[name-defined]
 
 # commented values are repeated values that are then overriden
 MODEL_VERSIONS = {

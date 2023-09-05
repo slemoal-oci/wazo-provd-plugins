@@ -16,7 +16,7 @@
 import os
 
 common_globals = {}
-execfile_('common.py', common_globals)
+execfile_('common.py', common_globals)  # type: ignore[name-defined]
 
 MODEL_VERSIONS = {
     'T19P_E2': '53.80.0.95',

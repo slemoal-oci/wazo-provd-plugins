@@ -1,9 +1,9 @@
-# Copyright 2010-2022 The Wazo Authors  (see the AUTHORS file)
+# Copyright 2010-2023 The Wazo Authors  (see the AUTHORS file)
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 
 common = {}
-execfile_('common.py', common)
+execfile_('common.py', common)  # type: ignore[name-defined]
 
 MODELS = [
     'X2',
